@@ -172,7 +172,7 @@ optional arguments:
   -p PACKAGE, --package PACKAGE
                          Package of the applications to delete
   -d, --details
-                         Show the concerned entity in the results
+                         Show the concerned doridlens.entity in the results
   -nn, --noNames
                          Disable app names in output
   -thr PATH, --thresholds PATH

@@ -50,11 +50,11 @@
             <artifactId>argparse4j</artifactId>
             <version>0.8.1</version>
         </dependency>
-        <!--<dependency>-->
-        <!--<groupId>org.apache.lucene</groupId>-->
-        <!--<artifactId>lucene-core</artifactId>-->
-        <!--<version>7.3.1</version>-->
-        <!--</dependency>-->
+        <dependency>
+        <groupId>org.apache.lucene</groupId>
+        <artifactId>lucene-core</artifactId>
+        <version>7.3.1</version>
+        </dependency>
         <!--CSV输出-->
         <dependency>
             <groupId>net.sf.opencsv</groupId>
@@ -78,29 +78,28 @@
             <version>0.9.5</version>
         </dependency>
 
-        <dependency>
-            <groupId>ca.mcgill.sable</groupId>
-            <artifactId>soot</artifactId>
-            <version>3.0.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-nop</artifactId>
-            <version>1.7.25</version>
-        </dependency>
-        <dependency>
-            <groupId>net.dongliu</groupId>
-            <artifactId>apk-parser</artifactId>
-            <version>2.6.1</version>
-        </dependency>
-
-        <dependency>
-            <groupId>jFuzzyLogic</groupId>
-            <artifactId>jFuzzyLogic</artifactId>
-            <version>1.0</version>
-            <!--<scope>system</scope>-->
-            <!--<systemPath>${project.basedir}/lib/jFuzzyLogic.jar</systemPath>-->
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>ca.mcgill.sable</groupId>-->
+<!--            <artifactId>soot</artifactId>-->
+<!--            <version>3.0.0-SNAPSHOT</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.slf4j</groupId>-->
+<!--            <artifactId>slf4j-nop</artifactId>-->
+<!--            <version>1.7.25</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>net.dongliu</groupId>-->
+<!--            <artifactId>apk-parser</artifactId>-->
+<!--            <version>2.6.1</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>jFuzzyLogic</groupId>-->
+<!--            <artifactId>jFuzzyLogic</artifactId>-->
+<!--            <version>1.0</version>-->
+<!--            &lt;!&ndash;<scope>system</scope>&ndash;&gt;-->
+<!--            &lt;!&ndash;<systemPath>${project.basedir}/lib/jFuzzyLogic.jar</systemPath>&ndash;&gt;-->
+<!--        </dependency>-->
     </dependencies>
 
     <repositories>
